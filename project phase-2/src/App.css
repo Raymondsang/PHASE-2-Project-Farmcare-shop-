@@ -1,0 +1,35 @@
+.title{
+  text-align: center;}
+.nav {
+  flex: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+.login{
+  background-image: border-4px;
+  border-color: black;
+  
+}
+.tractor {
+  flex: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+.body {
+background-color: white;
+}
+.products {
+  flex: auto;
+}
+.samples{
+  flex: auto;
+
+}
