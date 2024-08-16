@@ -34,13 +34,9 @@ const Home = () => {
             </form>
           </section>
 
-          <section className="tractor">
-            <img src="public/images/pexels-andre-124356440-16101071.jpg" alt="A green tractor" className="tractor-image" />
-            <p>HIRE A PROFESSIONAL TODAY FOR EXPERT ADVICE AND CONTRACT WORK.</p>
-            <button>LEARN MORE</button>
-          </section>
-        </div>
-
+          
+      </div>
+    
         <section className="products">
           <h2>OUR PRODUCTS</h2>
           <div className="samples">
