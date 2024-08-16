@@ -1,30 +1,24 @@
+// src/components/Login.jsx
+
 import React from 'react';
-import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../Firebase.jsx';
-
-
+import { useAuth } from '../contexts/AuthContext';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const { login } = useAuth();
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    login();
+    navigate('/');
+  };
+
   return (
     <div>
-        <h1>Login</h1>
-        <p>
-            <div>
-               <form action="">
-                   <div>
-                       <label htmlFor="email">Email:</label>
-                       <input type="email" id="email" name="email"/>
-                   </div>
-                   <div>
-                       <label htmlFor="password">Password:</label>
-                       <input type="password" id="password" name="password"/><br /> <br />
-                       <button type="submit">Submit</button>
-                   </div>
-               </form>
-            </div>
-        </p>
+      <h1>Login</h1>
+      <button onClick={handleLogin}>Login</button>
     </div>
-  )
-}
+  );
+};
 
 export default Login;

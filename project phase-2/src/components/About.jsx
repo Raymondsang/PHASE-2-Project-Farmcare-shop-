@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div>
         
-        <p>
-            <div className="flex-auto">
+        
+            <div className="nav">
                 <nav> 
                      <div>
                    <button>About Us</button> 
@@ -24,7 +24,7 @@ const About = () => {
                 </div></nav>
               
             </div>
-        </p>
+        
 
     </div>
   )

@@ -1,0 +1,19 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Brake Pads",
+        "description": "High-quality brake pads for various vehicle models.",
+        "price": 29.99,
+        "image": "https://i.pinimg.com/564x/be/d2/9d/bed29d329d9ee212b7ef72ba2c48fd8a.jpg"
+      },
+
+      {
+
+        ["id": "2",
+        "name": "Oil Filter",
+        "description": "Durable oil filter to keep your engine running smoothly.",
+        "price": 15.99,
+        "image": "https://i.pinimg.com/564x/33/c4/32/33c4 
+      }
+        
