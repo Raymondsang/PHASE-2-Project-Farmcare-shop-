@@ -1,6 +1,8 @@
-import React from 'react'
-import { LoginWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../Firebase';
+import React from 'react';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../Firebase.jsx';
+
+
 
 const Login = () => {
   return (
@@ -25,4 +27,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;
