@@ -2,8 +2,8 @@
     "products": [
       {
         "id": "1",
-        "name": "Brake Pads",
-        "description": "High-quality brake pads for various vehicle models.",
+        "name": "email",
+        "description": "Get access to exclusive updates.",
         "price": 29.99,
         "image": "https://i.pinimg.com/564x/be/d2/9d/bed29d329d9ee212b7ef72ba2c48fd8a.jpg"
       },
